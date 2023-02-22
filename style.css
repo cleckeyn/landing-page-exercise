@@ -167,7 +167,9 @@ h3 {
   .card {
    display: flex;
    flex-direction: row;
-   width: 200px;
+   flex: 1;
+   justify-content: center;
+   /* width: 200px; */
   
   }
 
