@@ -127,33 +127,33 @@ h2 {
 h3 {
     padding: 0px;
 }
-  .left-call {
+ .left-call {
     flex: 1;
     flex-direction: column;
     margin: auto;
     margin-left: 50px;
   }
 
-  button {
-    display: inline-block;
-    padding: 5px 10px;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-color: #3882F6;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    height: 30px;
-    width: 100px;
-    margin-right: 50px;
+button {
+   display: inline-block;
+   padding: 5px 10px;
+   margin-left: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+   background-color: #3882F6;
+   color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+   height: 30px;
+   width: 100px;
+   margin-right: 50px;
   }
 
-  .top-half button {
+ .top-half button {
    border: none;
    font-weight: bold;
   }
-  .footer {
+ .footer {
     flex: 1;
     flex-grow: 1;
     margin-top: auto;
@@ -164,20 +164,28 @@ h3 {
     text-align: center;
   }
 
-  .card {
+ .card {
    display: flex;
    flex-direction: row;
    flex: 1;
    justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 70px;
    /* width: 200px; */
   
   }
 
-  .card p {
+ .card p {
    width: 150px;
    text-align: center;
   }
 
-  .info img {
+ .info img {
    width: 150px;
+   border: 3px solid #3882F6;
+   border-radius: 5px;
+  }
+
+ .bottom-content {
+   margin-top: 10px;
   }
