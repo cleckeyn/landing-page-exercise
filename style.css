@@ -167,3 +167,26 @@ h3 {
     text-align: center;
     /* align-self: flex-end; */
   }
+
+  .card {
+   display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   width: 200px;
+   /* flex-wrap: nowrap; */
+   /* flex: 1;  */
+  }
+
+  .card p {
+   width: 200px;
+   text-align: center;
+  }
+
+  .info img {
+   width: 200px;
+  }
+
+  /* .info {
+   display: flex;
+   flex-direction: column;
+  } */
