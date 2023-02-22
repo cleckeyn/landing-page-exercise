@@ -68,7 +68,6 @@ h1 {
   }
 
   .left-content {
-   /* max-width: 400px; */
    margin-right: 30px; 
   }
 
@@ -90,8 +89,6 @@ h1 {
     flex: 1;
     justify-content: flex-end;
     gap: 30px;
-    /* margin-right: 100px; */
-    /* margin-bottom: auto; */
  }
 
  a {
@@ -105,11 +102,6 @@ h1 {
     margin-left: auto;
 
  }
-
- /* .subheader {
-   gap: 10px;
-   display: flex;
- } */
 
  .quote {
     background-color: #E5E7EB;
@@ -141,6 +133,7 @@ h3 {
     margin: auto;
     margin-left: 50px;
   }
+
   button {
     display: inline-block;
     padding: 5px 10px;
@@ -156,6 +149,10 @@ h3 {
     margin-right: 50px;
   }
 
+  .top-half button {
+   border: none;
+   font-weight: bold;
+  }
   .footer {
     flex: 1;
     flex-grow: 1;
@@ -165,28 +162,20 @@ h3 {
     color: white;
     line-height: 60px;
     text-align: center;
-    /* align-self: flex-end; */
   }
 
   .card {
    display: flex;
    flex-direction: row;
-   /* justify-content: center; */
    width: 200px;
-   /* flex-wrap: nowrap; */
-   /* flex: 1;  */
+  
   }
 
   .card p {
-   width: 200px;
+   width: 150px;
    text-align: center;
   }
 
   .info img {
-   width: 200px;
+   width: 150px;
   }
-
-  /* .info {
-   display: flex;
-   flex-direction: column;
-  } */
