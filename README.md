@@ -1,9 +1,11 @@
-# landing-page-exercise
-the landing page exercise from The Odin Project
+# The Landing Page Exercise
+This is my solution to the landing page exercise from The Odin Project.
+
+Click here to view it: https://cleckeyn.github.io/landing-page-exercise 
 
 Assignment page: https://www.theodinproject.com/lessons/foundations-landing-page
 
-Image attributions: 
+## Image attributions: 
 
 Photo by Lisa Fotios: https://www.pexels.com/photo/person-holding-drinking-glass-1346155/
 
