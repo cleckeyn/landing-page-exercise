@@ -1,16 +1,12 @@
 html {
     box-sizing: border-box;
-}
+ }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-* {
-    /* border: 1px solid red; */
-}
+ }
 
 body {
     display: flex;
@@ -20,9 +16,11 @@ body {
     /* min-height: 100vh; */
     /* background-color: white; */
     font-family: 'Roboto', sans-serif;
-}
+ }
 
- .top-half {
+/*--------------Header and subheader------*/
+
+.top-half {
    background-color: #1F2937;
    display: flex;
    flex-direction: column;
@@ -30,17 +28,17 @@ body {
    flex: 1;
  }
 
- .header {
+.header {
     color: white;
     display: flex;
     flex-direction: row;
  }
 
- .subheader {
+.subheader {
    margin: 100px;
  }
 
- .website-title {
+.website-title {
    color: #F9FAF8;
    margin-top: auto;
    margin-bottom: auto;
@@ -49,10 +47,10 @@ body {
    font-size: 24px;
    font-weight: bold;
  }
- .top-content {
+
+.top-content {
     display: flex;
     margin: auto;
-    /* justify-content: space-around; */
     margin-left: 50px;
  }
  
@@ -64,27 +62,27 @@ h1 {
    margin-bottom: 0px;
  }
 
-  .left-content p {
+.left-content p {
    font-size: 18px;
    color: #E5E7EB;
    /* width: 500px;  */
-  }
-
-  .left-content {
-   margin-right: 30px; 
-  }
-
- .navigation-links {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-bottom: auto;
-    margin-top: auto;
-    margin-right: 50px;
-    font-size: 18px;
  }
 
- ul {
+.left-content {
+   margin-right: 30px; 
+ }
+
+.navigation-links {
+   display: flex;
+   flex-direction: row;
+   margin-left: auto;
+   margin-bottom: auto;
+   margin-top: auto;
+   margin-right: 50px;
+   font-size: 18px;
+ }
+
+ul {
     list-style: none;
     padding: 0px;
     display: flex;
@@ -94,114 +92,62 @@ h1 {
     gap: 30px;
  }
 
- a {
+a {
     text-decoration: none;
     color: #E5E7EB;
  }
 
- img {
+img {
     width: 400px;
     margin-right: 50px;
     margin-left: auto;
 
  }
 
- .quote {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-size: 36px;
- }
-
-  .call-to-action {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    /* padding: 30px; */
-    width: 800px;
-    height: 120px;
-    background-color: #3882F6;
-    color: white;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
-
-  .call-to-action p {
-   margin-top: 0;
-  }
-
 h2 {
    text-align: center;
-}
+ }
 
-h3 {
-    padding: 0px;
-    margin-bottom: 5px;
-}
- .left-call {
-    flex: 1;
-    flex-direction: column;
-    margin: auto;
-    margin-left: 50px;
-  }
-
-button {
-   display: inline-block;
-   padding: 5px 10px;
-   margin-left: auto;
-   margin-top: auto;
-   margin-bottom: auto;
-   background-color: #3882F6;
-   color: white;
-   border: 1px solid white;
-   border-radius: 5px;
-   height: 30px;
-   width: 100px;
-   margin-right: 50px;
-  }
-
- .top-half button {
+.top-half button {
    border: none;
    font-weight: bold;
   }
- .footer {
-    flex: 1;
-    flex-grow: 1;
-    margin-top: auto;
-    max-height: 60px;
-    background-color: #1F2937;
-    color: white;
-    line-height: 60px;
-    text-align: center;
-  }
 
- .card {
+/*-----------------------The Fascinating journey of Tap Water-------------------*/
+
+.card {
    display: flex;
    flex-direction: row;
    flex: 1;
    justify-content: center;
    margin-top: 30px;
    margin-bottom: 70px;
-   /* width: 200px; */
-  
   }
 
- .card p {
+.card p {
    width: 150px;
    text-align: center;
   }
 
- .info img {
+.info img {
    width: 150px;
    border: 3px solid #3882F6;
    border-radius: 5px;
   }
 
- .bottom-content {
+.bottom-content {
    margin-top: 10px;
   }
 
- .quote {
+ /* ----------Quote------------- */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+ }
+
+.quote {
    font-size: 36px;
    font-style: italic;
    color: #1F2937; 
@@ -215,11 +161,71 @@ button {
    margin-bottom: 50px;
  }
 
- .quote-text {
+.quote-text {
    margin-left: 50px;
  }
 
- .quote .attribution {
+.quote .attribution {
    margin-left: auto;
    margin-right: 50px;
+ }
+
+/*---------------Call to action------------*/
+
+.call-to-action {
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+   /* padding: 30px; */
+   width: 800px;
+   height: 120px;
+   background-color: #3882F6;
+   color: white;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+ }
+
+.call-to-action p {
+  margin-top: 0;
+ }
+
+h3 {
+   padding: 0px;
+   margin-bottom: 5px;
+}
+
+.left-call {
+   flex: 1;
+   flex-direction: column;
+   margin: auto;
+   margin-left: 50px;
+ }
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  margin-right: 50px;
+ }
+
+ /*---------Footer--------*/
+
+ .footer {
+   flex: 1;
+   flex-grow: 1;
+   margin-top: auto;
+   max-height: 60px;
+   background-color: #1F2937;
+   color: white;
+   line-height: 60px;
+   text-align: center;
  }
