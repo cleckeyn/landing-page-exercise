@@ -15,8 +15,10 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0; 
     /* min-height: 100vh; */
-    background-color: white;
+    /* background-color: white; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -124,12 +126,17 @@ h1 {
     margin-bottom: 50px;
   }
 
+  .call-to-action p {
+   margin-top: 0;
+  }
+
 h2 {
    text-align: center;
 }
 
 h3 {
     padding: 0px;
+    margin-bottom: 5px;
 }
  .left-call {
     flex: 1;
