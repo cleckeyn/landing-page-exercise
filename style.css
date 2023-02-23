@@ -62,7 +62,6 @@ h1 {
 .left-content p {
    font-size: 18px;
    color: #E5E7EB;
-   /* width: 500px;  */
  }
 
 .left-content {
@@ -108,7 +107,7 @@ h2 {
 .top-half button {
    border: none;
    font-weight: bold;
-  }
+ }
 
 /*-----------------------The Fascinating Journey of Tap Water-------------------*/
 
@@ -189,7 +188,7 @@ h2 {
 h3 {
    padding: 0px;
    margin-bottom: 5px;
-}
+ }
 
 .left-call {
    flex: 1;
@@ -217,7 +216,6 @@ button {
 
 .footer {
    flex: 1;
-   flex-grow: 1;
    margin-top: auto;
    max-height: 60px;
    background-color: #1F2937;
