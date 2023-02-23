@@ -64,7 +64,8 @@ h1 {
 
   .left-content p {
    font-size: 18px;
-   color: #E5E7EB; 
+   color: #E5E7EB;
+   /* width: 500px;  */
   }
 
   .left-content {
@@ -120,6 +121,7 @@ h1 {
     color: white;
     border-radius: 10px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
   }
 
 h2 {
@@ -202,6 +204,8 @@ button {
    padding: 70px;
    padding-left: 100px;
    padding-right: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
  }
 
  .quote-text {
