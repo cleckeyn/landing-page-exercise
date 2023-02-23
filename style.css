@@ -16,7 +16,7 @@ body {
     font-family: 'Roboto', sans-serif;
  }
 
-/*--------------Header and subheader------*/
+/*-----------------------Header and subheader-----------------------*/
 
 .top-half {
    background-color: #1F2937;
@@ -136,7 +136,7 @@ h2 {
    margin-top: 10px;
   }
 
- /* ----------Quote------------- */
+ /*-----------------------Quote-----------------------*/
 
 .quote {
     background-color: #E5E7EB;
@@ -167,7 +167,7 @@ h2 {
    margin-right: 50px;
  }
 
-/*---------------Call to action------------*/
+/*-----------------------Call to action-----------------------*/
 
 .call-to-action {
    display: flex;
@@ -213,7 +213,7 @@ button {
   margin-right: 50px;
  }
 
- /*---------Footer--------*/
+ /*-----------------------Footer-----------------------*/
 
  .footer {
    flex: 1;
